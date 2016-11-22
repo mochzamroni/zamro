@@ -1,0 +1,56 @@
+<table border='1'>
+  <tr>
+    <th rowspan="2">INPUT</th>
+    <th colspan="5">OUTPUT</th>
+  </tr>
+  <tr>
+    <th>A</th>
+    <th>E</th>
+    <th>I</th>
+    <th>U</th>
+    <th>O</th>
+  </tr>
+  <tr>
+    <th>
+     <?php 
+      $n1="zam roni";
+      echo $n1;
+     ?>
+    </th>
+    <td>
+     <?php 
+      pemroses($n1,"A");
+      $a = substr_count($n1, “a”);
+      echo $a
+     ?>
+    </td>
+    <td>
+     <?php 
+      pemroses($n1,"E");
+      $e = substr_count($n1, “e”);
+      echo $e
+     ?>
+    </td>
+    <td>
+     <?php 
+      pemroses($n1,"I");
+      $i = substr_count($n1, “i”);
+      echo $i
+     ?>
+    </td>
+    <td>
+     <?php 
+       pemroses($n1,"U");
+       $u = substr_count($n1, “u”);
+      echo $u
+     ?>
+    </td>
+    <td>
+     <?php 
+      pemroses($n1,"O");
+      $o = substr_count($n1, “o”);
+      echo $o
+     ?>
+    </td>
+  </tr>
+</table>
